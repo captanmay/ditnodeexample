@@ -1,0 +1,9 @@
+applications:
+- disk_quota: 1024M
+host: ditexample2
+name: ditexample2
+command: node weather-request.js
+path: .
+domain: mybluemix.net
+instances: 1
+memory: 128M
