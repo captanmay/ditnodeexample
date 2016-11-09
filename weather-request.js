@@ -31,4 +31,6 @@ response.write(e.message);
 response.end();
 });
 });
+var weatherRequest = http.request( options, weatherCallback );
+weatherRequest.end();
 server.listen(port, host);
